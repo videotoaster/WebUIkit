@@ -1,0 +1,46 @@
+@font-face {
+    font-family: SF-Pro;
+    src: url("../font-assets/SF-Pro.otf");
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: SF-Pro, Helvetica, Arial, sans-serif;
+    background: #fefffe;
+}
+
+header {
+    height: 45px;
+    color: #000;
+    align-items: center;
+    justify-content: center;
+    background: #f6f6f7;
+    display: table;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #8c8b8e;
+}
+
+header * {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+header b {
+    font-size: 16pt;
+    font-weight: 600;
+    color: #000;
+}
+
+nav {
+    position: float;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    background: #f6f6f7;
+    color: black;
+    border-top: 1px solid #8c8b8e;
+}
